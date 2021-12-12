@@ -18,7 +18,7 @@ function About() {
                     <a href="https://www.linkedin.com/in/ivy-chen-4065aab7/" rel="noreferrer" target='_blank'><li className="socials-link">Linkedin ↗</li></a>
                     <a href="https://github.com/ivavay" rel="noreferrer" target='_blank'><li className="socials-link">Github ↗</li></a>
                     <a href="https://twitter.com/wonderbarstudio" rel="noreferrer" target='_blank'><li className="socials-link">Twitter ↗</li></a>
-                    <a href="mailto: ichen9@ucsc.edu" rel="noreferrer" target='_blank'><li className="socials-link">Email ↗</li></a>
+                    <a href="https://dev.to/ivavay" rel="noreferrer" target='_blank'><li className="socials-link">Blog ↗</li></a>
                 </ul>
             </div>
         </div>

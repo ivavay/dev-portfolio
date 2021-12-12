@@ -1,0 +1,323 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Italiana&display=swap');
+
+* {
+    background-color: #EBECF2;
+}
+.gradient {
+    position: absolute;
+    width: 800px;
+    height: 800px;
+    left: 600px;
+    top: 30px;
+    background: radial-gradient(31.19% 31.19% at 46.82% 50%, rgba(37, 54, 236, 0.534) 0%, rgba(1, 26, 255, 0) 100%);
+}
+
+img {
+    width: 400px;
+    height: auto;
+    border-radius: 30px;
+    
+}
+
+li {
+    list-style: none;
+    margin: 0 8px 0 0;
+}
+
+.about {
+    text-decoration: none ;
+    position: absolute;
+    top: 40px;
+    right: 88px;
+    font-family: Italiana;
+    font-weight: 700;
+    font-size: 24px;
+    display: inline-block;
+    z-index: 1;
+    color: black;
+}
+@keyframes fadeInUp {
+  from {
+    transform: translate3d(0, 40px, 0);
+  }
+
+  to {
+    transform: translate3d(0, 0, 0);
+    opacity: 1;
+  }
+}
+.animated {
+  animation-duration: 2s;
+  animation-fill-mode: both;
+  -webkit-animation-duration: 2s;
+  -webkit-animation-fill-mode: both;
+}
+
+.animatedFadeInUp {
+  opacity: 0;
+}
+
+.fadeInUp {
+  opacity: 0;
+  animation-name: fadeInUp;
+  -webkit-animation-name: fadeInUp;
+}
+h1 {
+    font-family: 'Italiana', serif;
+    font-size: 48px;
+    padding: 320px 128px;
+}
+p{
+    font-family: 'Inter';
+    font-size: 18px;
+    padding: 16px 128px;
+    width: 70%;
+    line-height: 28px;
+}
+
+.connect {
+    font-family: 'Inter';
+    font-size: 18px;
+    padding: 40px 128px 16px 128px;
+    color: #A49C9C;
+}
+
+ul.socials {
+    font-family: 'Inter';
+    font-size: 16px;
+    font-weight: 400;
+    display: flex;
+    padding: 0 128px;
+    justify-content: flex-start;
+    margin: 0;
+}
+li.socials-link {
+    list-style: none;
+    margin: 0 40px 0 0;
+}
+h1.about {
+    padding: 80px 128px 16px 0px;
+}
+.about-info {
+    width: 90%;
+    padding: 80px 128px 128px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+h2 {
+    font-family: 'Italiana', serif;
+    font-size: 36px;
+    margin: 0
+}
+
+h3 {
+    font-family: 'Inter';
+    font-size: 18px;
+    font-weight: 400;
+}
+h4 {
+    font-weight: normal;
+    font-family: 'Inter';
+}
+button {
+    background: rgba(37, 54, 236, 0.35);
+    font-weight: bold;
+    border: none;
+    color: white;
+    font-family: 'Inter';
+    font-size: 16px;
+    opacity: 0.5;
+    border-radius: 5px;
+    padding: 5px 15px;
+    margin: 0 0 8px 0;
+}
+.project {
+    display: flex;
+    padding: 0px 128px;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.project-info {
+    width: 50%;
+}
+a {
+    font-family: 'Inter';
+    font-size: 18px;
+    font-weight: 700;
+    color: #C9C9C9;
+    text-decoration: none;
+}
+a .socials-link {
+    font-weight: 400;
+    color: black;
+}
+
+.see-more {
+    padding: 40px 0;
+    font-family: 'Inter';
+    font-size: 18px;
+    font-weight: 700;
+    color: #C9C9C9;
+}
+.demo {
+    margin: 0 16px 0 0;
+}
+.see-code {
+    margin: 0 16px 0 0;
+}
+.lets-connect {
+    position: absolute;
+    bottom: 24px;
+}
+.about-hello {
+    padding:  0px 128px;
+}
+footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 16px 128px 0 128px;
+}
+/* Mobile CSS*/
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+    /* * {
+        overflow-x: hidden;
+    } */
+    h1 {
+        font-family: 'Italiana', serif;
+        font-size: 72px;
+        padding: 224px 40px;
+        width: 850px;
+    }
+    .gradient {
+        position: absolute;
+        width: 800px;
+        height: 800px;
+        left: 200px;
+        top: 30px;
+        background: radial-gradient(31.19% 31.19% at 46.82% 50%, rgba(37, 54, 236, 0.534) 0%, rgba(1, 26, 255, 0) 100%);
+    }
+    a.about {
+        width: 40px;
+        text-decoration: none ;
+        position: absolute;
+        left: 800px;
+        font-family: Italiana;
+        font-weight: 700;
+        font-size: 48px;
+        display: inline-block;
+        z-index: 1;
+        color: black;
+    }
+    .about-hello {
+        padding: 40px 0;
+        font-size: 120px;
+    }
+    p {
+        font-family: 'Inter';
+        font-size: 24px;
+        padding: 16px 0;
+        line-height: 56px;
+        width: 100%;
+    }
+    img {
+        width: 100vw;
+        height: auto;
+    }
+    .about-info {
+        width: 100%;
+        padding: 80px 80px 40px 40px;
+        display: block;
+
+    }
+    .lets-connect {
+        display: flex;
+        flex-direction: column;
+        visibility: hidden;
+
+    }
+    .connect {
+        visibility: hidden;
+        font-family: 'Inter';
+        font-size: 36px;
+        padding: 40px 40px 16px 40px;
+        color: #A49C9C;
+    }
+    
+    ul.socials {
+        visibility: hidden;
+        display: flex;
+        flex-direction: column;
+        font-size: 24px;
+    }
+    li.socials-link {
+        list-style: none;
+        margin: 8px 8px 0 0;
+        font-weight: 400;
+    }
+    a.socials-link {
+        font-size: 24px;
+        font-weight: 400;
+    }
+    h1.about {
+        visibility: hidden;
+    }
+    
+    h2 {
+        font-family: 'Italiana', serif;
+        font-size: 64px;
+        margin: 0
+    }
+    
+    h3 {
+        font-family: 'Inter';
+        font-size: 32px;
+        font-weight: 400;
+    }
+    button {
+        background: rgba(37, 54, 236, 0.35);
+        font-weight: bold;
+        border: none;
+        color: white;
+        font-family: 'Inter';
+        font-size: 24px;
+        opacity: 0.5;
+        border-radius: 5px;
+        padding: 15px 35px;
+        margin: 0 0 8px 0;
+    }
+    .project {
+        display: flex;
+        flex-direction: column;
+        padding: 0px 40px;
+        justify-content: space-between;
+        align-items: flex-start;
+        width: 800px;
+    }
+    
+    .project-info {
+        width: 100%;
+    }
+    .see-more {
+        padding: 40px 0 80px 0;
+        font-family: 'Inter';
+        font-size: 18px;
+        font-weight: 700;
+        color: #C9C9C9;
+    }
+    .demo {
+        margin: 0 16px 0 0;
+    }
+    .see-code {
+        margin: 0 16px 0 0;
+    }
+    footer {
+        display: flex;
+        justify-content: space-between;
+        font-family: 'Italiana';
+        padding: 16px 40px 0 40px;
+        width: 800px;
+        font-size: 20px;
+    }
+    }

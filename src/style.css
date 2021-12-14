@@ -318,3 +318,39 @@ footer {
         font-size: 32px;
     }
     }
+    /* Large screens ----------- */
+@media only screen  and (min-width : 1824px) {
+    h1 {
+        font-family: 'Italiana', serif;
+        font-size: 72px;
+        padding: 376px 128px;
+        width: 1400px;
+    }
+    .see-more {
+        padding: 80px 0;
+    }
+    .gradient {
+        position: absolute;
+        width: 1000px;
+        height: 1000px;
+        /* left: 900px; */
+        top: 0px;
+        background: radial-gradient(31.19% 31.19% at 46.82% 50%, rgba(37, 54, 236, 0.534) 0%, rgba(1, 26, 255, 0) 100%);
+    }
+    img {
+        width: 400px;
+        height: auto;
+        border-radius: 30px;
+        position: absolute;
+        top: 180px;
+        right: 256px;
+        
+    }
+    p{
+        font-family: 'Inter';
+        font-size: 18px;
+        padding: 16px 128px;
+        width: 40%;
+        line-height: 28px;
+    }
+}
